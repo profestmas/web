@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background-color:;
+	background-image: url("imagenes/fondo.png");
+	background-attachment: fixed;
+}
+
+body{
+	width: 1000px;
+	height: 1000px;
+	
+	margin: auto;
+}
+header{
+	width: 1000px;
+	height: 200px;
+	background-color:royalblue;
+}
+nav{
+	width: 1000px;
+	height: 40px;
+	background-color:;
+}
+article{
+	width: 800px;
+	height: 710px;
+	
+	background-color: transparent;
+	float: left;
+}
+aside{
+	width: 200px;
+	height: 710px;
+	background-color:transparent;
+	float: left;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color:transparent;
+	float: left;
+}
+
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+	font-family: tahoma;
+}
+
+nav li{
+	display: inline-block;
+	padding: 4px 5px;
+	box-shadow:0px 0px 10px #196F3D;
+	color: #000;
+	background-color: #EAFAF1;
+}
+
+nav li:hover{
+	color: #000;
+	box-shadow:0px 0px 20px #196F3D;
+	transition: 0.8s;
+}
+
+nav ul{
+	text-align: right;
+	padding: 8px 0px;
+}
+
+.menu:hover:nth-child(1){
+    background-color: #E0E46C ;
+}
+
+.menu:hover:nth-child(2){
+    background-color: #d5f5e3;
+}
+
+.menu:hover:nth-child(3){
+    background-color: #abebc6 ;
+}
+
+.menu:hover:nth-child(4){
+    background-color: #82e0aa;
+}
+
+.menu:hover:nth-child(5){
+    background-color: #58d68d;
+}
+
+.menu:hover:nth-child(6){
+    background-color: #2ecc71;
+}
+
+.menu:hover:nth-child(7){
+    background-color: #E0E46C;
+}
+/*Menu redes sociales*/
+
+	.social ul {
+		list-style: none;
+		text-align:right;
+
+	}
+.social li {
+	display: inline-block;
+}
+
+.social ul li img  {
+	
+	width: 25px;
+	
+}
+
+	.social ul li a {
+		display:inline-block;
+		height: px;
+		padding: 7px 1px;
+		transition:all 0.3s; /* Establecemos una transición a todas las propiedades */
+	}
+
+	/* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-facebook{background:#abebc6;} 
+	.social ul li .icon-twitter {background:#abebc6;}
+	.social ul li .icon-googleplus {background:#abebc6;}
+	.social ul li .icon-pinterest {background:#abebc6;}
+	.social ul li .icon-whatsapp {background:#abebc6;}
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-facebook:hover{background:#3b5998;} 
+	.social ul li .icon-twitter:hover{background: #00abf0;}
+	.social ul li .icon-googleplus:hover {background: #d95232;}
+	.social ul li .icon-pinterest:hover {background: #ae181f;}
+	.social ul li .icon-whatsapp:hover {background: #2ecc71;}
+
+	.social ul li a:hover {
+		
+		padding: 2px 8px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+		box-shadow: 0 0 5px #000;
+		
+	}
+
+
+/*mas info*/
+.mas{
+	margin: 20px;
+	width: 180px;
+	height: 43px;
+	border-radius: 5px;
+	background: var(--i);
+	background-size: cover;
+	box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+
+.contenido{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background:;
+	background: rgba(0, 0, 0, .4);
+	opacity: 0;
+	transition: 1s;
+}
+
+.contenido h4,a{
+	color: rgba(255, 255, 255, .8);
+	margin: 0px 0;
+}
+
+.mas:hover .contenido{
+	opacity: 3;
+}
